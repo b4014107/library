@@ -2,19 +2,24 @@ package com.jrogers
 
 class BookReview {
 
-String book
+String bookReview
 
-Date dateCreated
+Book book
 
-String student
+Date dateMade
+
+Student student
 
 String review
 
+
     static constraints = {
 
-book blank:false, nullable:false
+bookReview blank: false, nullable: false
 
-dateCreated blank:false, nullable:false
+book blank: false, nullable: false
+
+dateMade blank: false, nullable: false
 
 student blank:false, nullable:false
 

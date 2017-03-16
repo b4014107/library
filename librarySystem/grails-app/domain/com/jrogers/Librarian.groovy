@@ -12,9 +12,9 @@ String username
 
 String password
 
-int telephone
+String telephone
 
-String library
+Library library
 
 
     static constraints = {

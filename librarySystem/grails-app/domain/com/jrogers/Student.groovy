@@ -14,6 +14,10 @@ String studentID
 
 Course course
 
+Library library
+
+static hasMany=[books:Book]
+
     static constraints = {
 
 name blank:false, nullable:false

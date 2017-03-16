@@ -8,15 +8,19 @@ String subject
 
 String author
 
-int isbn
+String isbn
 
 Date dateBorrowed
 
 Date returnDate
 
-String student
+Boolean overdue
 
-Boolean overdue?
+Student student
+
+Library library 
+
+static hasMany=[bookreviews:BookReview]
 
 
     static constraints = {
@@ -28,7 +32,7 @@ subject blank: false, nullable: false
 
 author blank: false, nullable: false
 
-isbn blank: false, nullable: false, size: 1..10 , unique: true 
+isbn blank: false, nullable: false,  unique: true 
 
 dateBorrowed blank: false, nullable: false
 
@@ -36,7 +40,7 @@ returnDate blank: false, nullable: false
 
 student blank: false, nullable: false
 
-overdue? blank: false, nullable: false
+overdue blank: false, nullable: false
 
 
     }
