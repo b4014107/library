@@ -4,12 +4,21 @@ class BootStrap {
 
     def init = { servletContext ->
 
-def lib1 = new Library (
+/*def lib1 = new Library (
 name: 'Sheffield Hallam HQ Library',
-address: '23 Arundel Gate, Sheffield',
-openingHours: '9:00am - 6:00pm', 
+address: '23 Arundel Gate, Sheffield, S1 1WB',
+openingHours: '24 Hours', 
 location: 'Right side of Owen Building',
-studySpaces: '20'
+studySpaces: '150'
+
+).save()
+
+def lib2 = new Library (
+name: 'Sheffield Hallam Collegiate Library',
+address: 'Collegiate Crescent, Sheffield, S10 2BP',
+openingHours: '9:00am - 6:00pm',
+location: 'Above main atrium hall building',
+studySpaces: '50'
 
 ).save()
 
@@ -19,7 +28,19 @@ code: 'ACES-BIO-321',
 leader: 'Henry Green',
 department: 'ACES',
 description: ";ljhoh",	
-studyMode: 'IIGUHLIU'
+studyMode: 'Full-time',
+tuitionFees: 8500
+
+).save()
+
+def cour2 = new Course (
+title: 'Computing',
+code: 'ACES-COM-463',
+leader: 'Lynne Dawson',
+department: 'ACES',
+description: 'This is the Computing course',
+studyMode: 'Full-time',
+tuitionFees: 9000
 
 ).save()
 
@@ -119,6 +140,7 @@ review: "This book isn't as good as the first one!"
 
 ).save()
 
+*/
 
 	}
 	def destroy = {

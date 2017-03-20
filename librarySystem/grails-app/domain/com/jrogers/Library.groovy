@@ -12,6 +12,11 @@ String location
 
 String studySpaces
 
+String toString(){ 
+
+return name
+
+}
 
 static hasMany=[librarians:Librarian, students:Student, books:Book]
 

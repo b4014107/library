@@ -18,6 +18,19 @@ Library library
 
 static hasMany=[books:Book]
 
+String toString(){
+
+"$name, $email, $username"
+
+}
+
+
+
+
+
+
+
+
     static constraints = {
 
 name blank:false, nullable:false

@@ -14,7 +14,31 @@ String description
 
 String studyMode
 
+double tuitionFees
+
 static hasMany=[students:Student]
+
+String toString(){ 
+
+return title
+
+}
+
+double calculateFees(){
+
+4*tuitionFees
+
+}
+
+
+
+
+
+
+
+
+
+
 
     static constraints = {
 
@@ -29,6 +53,8 @@ department blank:false, nullable:false
 description blank:false, nullable:false, maxSize:5000 
 
 studyMode blank:false, nullable:false, size: 1..20
+
+tuitionFees blank:false, nullable:false, scale: 2
 
 
     }

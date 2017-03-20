@@ -16,6 +16,11 @@ String telephone
 
 Library library
 
+String toString(){ 
+
+"$name, $email, $telephone"
+
+}
 
     static constraints = {
 

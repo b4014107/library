@@ -12,6 +12,11 @@ Student student
 
 String review
 
+String toString(){ 
+
+return bookReview
+
+}
 
     static constraints = {
 
