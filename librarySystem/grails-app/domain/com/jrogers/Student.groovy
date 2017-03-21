@@ -6,7 +6,7 @@ String name
 
 String email
 
-String username
+String userName
 
 String password
 
@@ -20,7 +20,7 @@ static hasMany=[books:Book]
 
 String toString(){
 
-"$name, $email, $username"
+"$name, $email, $userName"
 
 }
 
@@ -37,7 +37,7 @@ name blank:false, nullable:false
 
 email blank:false, nullable:false, email:true
 
-username blank:false, nullable:false, unique:true
+userName blank:false, nullable:false, unique:true
 
 password blank:false, nullable:false
 
