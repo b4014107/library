@@ -10,7 +10,7 @@
 
     <asset:stylesheet src="application.css"/>
 
-    <g:layoutHead/>
+    <g:layoutHead/>0
 </head>
 <body>
 
@@ -18,7 +18,8 @@
 
 	<asset:image src="LibrarySystem_Banner.png"/>
 
-	<g:loginToggle/>
+	<g:librarianloginToggle/>
+	<g:studentloginToggle/>
 	</div>
 
     <g:layoutBody/>

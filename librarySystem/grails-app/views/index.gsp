@@ -15,7 +15,7 @@
 
             <div class="row">
 
-		<asset:image src="LSMain.png"/>
+		
 
 		</div>
             

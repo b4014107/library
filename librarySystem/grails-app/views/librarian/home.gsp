@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Sheffield Hallam Library Management Appliication</title>
+    <title>Sheffield Hallam Library Management Appliication</title>
     <asset:stylesheet src="home.css"/>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
