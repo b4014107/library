@@ -16,7 +16,7 @@ out << "Logout </a></span>"
 out << "<span style='float:right;margin-right:10px'>"
 out << "<a href='${createLink(controller:'librarian', action:'login')}'>"
 
-out << "Login </a></span>"
+out << "Libarian Login </a></span>"
 }
 out << "</div><br/>"
 }
@@ -33,7 +33,7 @@ out << "Logout </a></span>"
 out << "<span style='float:right;margin-right:10px'>"
 out << "<a href='${createLink(controller:'student', action:'login')}'>"
 
-out << "Login </a></span>"
+out << "Student Login </a></span>"
 }
 out << "</div><br/>"
 }

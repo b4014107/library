@@ -70,6 +70,21 @@
 
 				</div>
 
+				
+				<div class="first">
+
+					<h3> Advanced Search Form</h3>
+
+					<p> This is the results  </p>
+	
+					<button type="button" class="btn btn-success">
+
+					<g:link controller="librarian" action="advSearch">Librarians</g:link>
+			
+					</button>
+				</div>
+
+
 			</div>
 		</div>
 	</body>
