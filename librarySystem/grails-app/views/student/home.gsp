@@ -48,6 +48,19 @@
 					
 				</div>
 
+
+				<div class="first">
+
+					<h3> Advanced Search Form</h3>
+
+					<p> This is the results  </p>
+	
+					<button type="button" class="btn btn-success">
+
+					<g:link controller="student" action="advSearch">Books</g:link>
+			
+					</button>
+				</div>
 				
 				
 
