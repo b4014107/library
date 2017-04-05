@@ -1,6 +1,16 @@
-.first{background-color:#27A6EA}
+.first {
+		background-color:#f7f9f7;
+		border-style: solid;
+		border-width: 2px;
 
-.second{background-color:#0B6FA5}
+}
+.second{
+		background-color:#EAEFEB;
+		border-style: solid;
+		border-width: 2px;
+
+
+}
 
 h3 {
 	color:black;
@@ -10,4 +20,14 @@ h3 {
 p {
 	font-family:Arial;
 	font-size:12px;
+}
+
+.button {
+
+	background-color: #F9AEF0;
+	border: none;
+	color: white;
+
+
+
 }

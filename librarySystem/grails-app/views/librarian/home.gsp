@@ -13,76 +13,82 @@
 
 <div class="row">
 
+<h1><u><strong>Librarian Controller Menu</strong></u></h1>
+
+	<h2><u><strong>Management Section</strong></u></h2>
+
 				<div class="first">
 
 					<h3> Student Management </h3>
 
-					<p> This is the Student Management Section </p>
+					<p> Here is the management section to add a new students onto the system </p>
 
-					<button type="button" class="btn btn-success">
+					<button class="button" type="button" class="btn btn-success">
 	
 					<g:link controller="student" action="create">Add Student</g:link>
 
 					</button>
 
-				</div>
+				</div></br>
 
 				
 				<div class="second">
 
 					<h3> Book Management </h3>
 
-					<p> This is the Book Management Section </p>
+					<p> Here is the management section to add a new books to different libararies </p>
 
-					<button type="button" class="btn btn-success">
+					<button class="button" type="button" class="btn btn-success">
 
 					<g:link controller="book" action="create">Add Book</g:link>
 
 					
-				</div>
+				</div></br>
 
 				
 				<div class="first">
 
 					<h3> Course Management </h3>
 
-					<p> This is the Course Management Section </p>
+					<p> Add new courses for students to log down on in this section</p>
 
-					<button type="button" class="btn btn-success">
+					<button class="button" type="button" class="btn btn-success">
 	
 					<g:link controller="course" action="create">Add Course</g:link>
 
 					</button>
 
-				</div>
+				</div></br>
 
 				<div class="second">
 
 					<h3> Librarian  Management </h3>
 
-					<p> This is the Librarian Management Section </p>
+					<p> This section is where new libarians can be added onto the system</p>
 
-					<button type="button" class="btn btn-success">
+					<button class="button" type="button" class="btn btn-success">
 	
 					<g:link controller="librarian" action="create">Add Librarian</g:link>
 
 					</button>
 
-				</div>
+				</div></br>
 
+<h2><u><strong>Search Section</strong></u></h2>
 				
 				<div class="first">
 
-					<h3> Advanced Search Form</h3>
+					<h3> Student Advanced Search Form</h3>
 
-					<p> This is the results  </p>
+					<p>Search for students on the application</p>
 	
-					<button type="button" class="btn btn-success">
+					<button class="button" type="button" class="btn btn-success">
 
-					<g:link controller="librarian" action="advSearch">Librarians</g:link>
+					<g:link controller="librarian" action="advSearch">Advanced Search</g:link>
 			
 					</button>
 				</div>
+
 
 
 			</div>

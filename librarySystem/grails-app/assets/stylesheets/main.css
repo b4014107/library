@@ -84,7 +84,7 @@ img {
 }
 
 .footer {
-    background: #4D8618;
+    background: #DB67EA;
     color: #000;
     clear: both;
     font-size: 0.8em;
@@ -94,7 +94,7 @@ img {
 }
 
 .footer a {
-    color: #43a7ef;
+    color: #DB67EA;
 }
 
 .spinner {
@@ -306,7 +306,7 @@ fieldset.embedded legend {
 
 .message {
     background: #f3f3ff;
-    border: 1px solid #b2d1ff;
+    border: 1px solid #DB67EA;
     color: #006dba;
     -moz-box-shadow: 0 0 0.25em #b2d1ff;
     -webkit-box-shadow: 0 0 0.25em #b2d1ff;
@@ -446,7 +446,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-    background: #79b94c;
+    background: #DB67EA;
 }
 
 /* PAGINATION */

@@ -24,7 +24,7 @@ class StudentSpec extends Specification {
 
 	name:'Andrew King',
 	email:'AndrewKing@Gmail.com',
-	username: 'TheKing123'
+	userName: 'TheKing123'
 )
 
 	then:"the toString method will merge them."

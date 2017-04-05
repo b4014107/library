@@ -17,18 +17,21 @@ class LibrarianSpec extends Specification {
 
     void "EmailValidation"() {
         
-	when: "A new librarian is logged onto the system with their name, email and office"
+	when: "A new librarian is logged onto the system with their name and incorrect email and office"
 
 	def Mary = new Librarian (
 
 	name: 'Mary Berry',
-	studentemail: 'MB@outlook.com',
-	office: '2202'
+
+	email: 'MBOutlook.com',
+
+	office: '2012'
+
 )
 
-	then: "Marys email should be validated" 
+	then: "Marys should not be validated due to the email constraint on the email attribute recognising the inserted email is invalid" 
 
-	Mary.validate()
+	!Mary.validate()
 
     }
 }

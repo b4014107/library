@@ -6,21 +6,26 @@
     <title>
         <g:layoutTitle default="Grails"/>
     </title>
+
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <asset:stylesheet src="application.css"/>
 
-    <g:layoutHead/>0
+    <g:layoutHead/>
 </head>
+
 <body>
 
-    <div class="row">
 
-	<asset:image src="LibrarySystem_Banner.png"/>
 
-	<g:librarianloginToggle/>
-	<g:studentloginToggle/>
-	</div>
+    	<div class="row">
+
+		<asset:image src="LibrarySystem_Banner.png"/>
+	<div class="clearfix"> <g:loginToggle/> </div>
+    
+    	</div>
 
     <g:layoutBody/>
 

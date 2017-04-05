@@ -15,8 +15,23 @@ class BookReviewSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+   void "BookReviewValidation"() {
+        
+	when: "A new book review is made"
+
+	def IndianaBones = new BookReview (
+
+	bookReview: 'Book Review for Biology 1',
+	book: boo1,
+	dateMade: new Date('18/03/2017'),
+	student: stu1,
+	review: "This book is great!"
+
+)
+
+	then: "Marys email should be validated" 
+
+	IndianaBones.validate()
+
     }
 }

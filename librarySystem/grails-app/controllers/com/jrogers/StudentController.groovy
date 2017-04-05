@@ -46,7 +46,7 @@ def user = Student.findByUserName(params.username)
 if (user && user.password == params.password){
 	
 	session.user=user
-
+	session.role='student'
 	render view:'home'
 
 }
@@ -65,7 +65,7 @@ else{
 def logout = {
 
 	session.user = null
-
+	session.role = null 
 	redirect(uri:'/')
 
 }

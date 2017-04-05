@@ -15,8 +15,22 @@ class LibrarySpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+Void "LibraryStudySpacesValidationTest"() {
+
+    when: "A new library is created and give some specific values"
+
+	def TownHall = new Library (
+
+	name: 'Sheffield Town Hall Library',
+	address: '23 Arundel Gate, Sheffield, S1 1WB',
+	openingHours: '24 Hours', 
+	location: 'Centre of the city',
+	studySpaces: '500'
+)
+
+	then: "Validation passes as maxSize on studySpaces is set within the correct constraint"
+
+	TownHall.validate()
+
     }
 }

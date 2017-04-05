@@ -26,7 +26,7 @@ class BookSpec extends Specification {
 	author: 'J.K Rowling'
 )
 
-	then: "Validation should fail"
+	then: "Validation should fail due to subject attributes constraint not permitting NULL fields"
 
 	!HP1.validate()
 

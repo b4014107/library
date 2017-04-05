@@ -32,7 +32,7 @@ openingHours blank: false, nullable: false
 
 location blank: false, nullable: false
 
-studySpaces blank: false, nullable: false
+studySpaces blank: false, nullable: false, maxSize: 1000
 
 
 
