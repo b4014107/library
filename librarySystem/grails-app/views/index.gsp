@@ -36,7 +36,7 @@
 			<p align="center"><strong>Email:</strong> t.maswera@shu.ac.uk</p>
 			<p align="center"><strong>Work Phone:</strong> 0114225 6959</p>
 			<p align="center"><strong>Office Location:</strong> Cantor 9417</p>
-			<p align="center"><strong>Office Hours:</strong> "Whenever Jack Rogers isn't around"</p>	
+			<p align="center"><strong>Office Hours:</strong> "9:00am to 5:00pm"</p>	
 		
 		<asset:image src="Tonderai_Maswera.png"/>
 
