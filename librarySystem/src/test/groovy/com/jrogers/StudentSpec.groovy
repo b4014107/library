@@ -29,7 +29,7 @@ class StudentSpec extends Specification {
 
 	then:"the toString method will merge them."
 
-	Andrew.toString() == 'Andrew King, AndrewKing@Gmail.com, TheKing123'
+	Andrew.toString() == 'Andrew King, AndrewKing@Gmail.com, TheKing123' /*toString function should output exactly like this*/
 
 	
 

@@ -84,7 +84,7 @@
 	
 					<button class="button" type="button" class="btn btn-success">
 
-					<g:link controller="librarian" action="advSearch">Advanced Search</g:link>
+					<g:link controller="student" action="advSearch">Advanced Search</g:link>
 			
 					</button>
 				</div>

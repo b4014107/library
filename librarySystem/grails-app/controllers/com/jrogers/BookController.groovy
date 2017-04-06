@@ -8,40 +8,45 @@ static allowedMethods = [index: "GET", show:"GET", remove:"REMOVE"]
 
 def scaffold = Book
 
-def Bindex(Book book){
+def advSearch() {
 
-render Book.list() as JSON
+}
 
-if (Book == null){
+def advResults() {
 
+def bookProps = Book.metaClass.properties*.name
 
-flash.message="There are currently no book details in the database"
+def books = Book.withCriteria {
+ "${params.queryType}" {
+
+	params.each {field, value ->
+
+		if(bookProps.grep(field) && value) {
+
+			ilike(field, value)
+		}
+	}
+
 
 }
 
 }
 
-
-def Bshow (Book book) {
-
-if (params.id && Book.exists(params.id)){
-
-render Book.findById(params.id) as JSON
+[books:books]
 
 }
 
-else {
 
-render Book.list() as JSON
-
-}
-
-}
-
-def delete (Book book) {
-
-
-
-}
-
+ def Bindex(Book book){
+ 
+ render Book.list() as JSON
+ 
+ if (Book == null){
+ 
+ render "There are currently no book details in the database"
+ 
+ }
+ 
+ }
+ 
 }

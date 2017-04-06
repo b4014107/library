@@ -22,11 +22,11 @@ class BookSpec extends Specification {
 	def HP1 = new Book (
 
 	title: 'Harry Potter and the Philosophers Stone', 
-	subject: '', 
+	subject: '', /*Subject field is given a blank and NULL value which should be noticed by the Nullable and Blank constraints*/
 	author: 'J.K Rowling'
 )
 
-	then: "Validation should fail due to subject attributes constraint not permitting NULL fields"
+	then: "Validation should fail due to subject attributes constraint not permitting NULL or Blank fields"
 
 	!HP1.validate()
 

@@ -10,14 +10,14 @@ def advSearch() {
 
 def advResults() {
 
-def bookProps = Book.metaClass.properties*.name
+def studentProps = Student.metaClass.properties*.name
 
-def books = Book.withCriteria {
+def students = Student.withCriteria {
  "${params.queryType}" {
 
 	params.each {field, value ->
 
-		if(bookProps.grep(field) && value) {
+		if(studentProps.grep(field) && value) {
 
 			ilike(field, value)
 		}
@@ -28,11 +28,9 @@ def books = Book.withCriteria {
 
 }
 
-[books:books]
+[students:students]
 
 }
-
-
 
 
 def login() {

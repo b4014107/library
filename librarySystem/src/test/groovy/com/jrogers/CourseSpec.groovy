@@ -23,7 +23,7 @@ class CourseSpec extends Specification {
 	def computing = new Course(title: 'BSc Hon Computing',
 
 
-				tuitionFees:9000)
+				tuitionFees:9000) /*With the computing course given a fee of 9000, it should be calculated with the 								calculate method to equal the value of 36000*/
 
 
 	then:"The calculateFees method will total fees"

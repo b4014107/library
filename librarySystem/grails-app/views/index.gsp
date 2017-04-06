@@ -30,7 +30,7 @@
 
 	<div align="center"> 
 
-		<p align="center">The leader of the Systems Architectures module; Dr.Tonderai Maswera is a highly respected lecturer within Sheffield Hallam University. If you have any questions in regards to the application or the module in which the application was built in feel free to contact him using the following information></p></br>
+		<p align="center">The leader of the Systems Architectures module; Dr.Tonderai Maswera is a highly respected lecturer within Sheffield Hallam University. If you have any questions in regards to the application or the module in which the application was built in feel free to contact him using the following information:</p></br>
 
 		
 			<p align="center"><strong>Email:</strong> t.maswera@shu.ac.uk</p>

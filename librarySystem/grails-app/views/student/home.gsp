@@ -64,7 +64,7 @@
 	
 					<button class="button" type="button" class="btn btn-success">
 
-					<g:link controller="student" action="advSearch">Search for Books</g:link>
+					<g:link controller="book" action="advSearch">Search for Books</g:link>
 			
 					</button>
 				</div></br>
@@ -82,22 +82,7 @@
 					</button>
 				</div></br>
 
-				<div class="first">
-
-					<h3>Book Show</h3>
-
-					<p> This is the show for the books  </p>
-	
-					<button class="button" type="button" class="btn btn-success">
-
-					<g:link controller="book" action="Bshow">action(SHOW)</g:link>
 			
-					</button>
-				</div>
-				
-				
-
-				
 
 			</div>
 		</div>

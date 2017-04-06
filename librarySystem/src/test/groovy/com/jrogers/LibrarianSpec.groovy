@@ -23,7 +23,7 @@ class LibrarianSpec extends Specification {
 
 	name: 'Mary Berry',
 
-	email: 'MBOutlook.com',
+	email: 'MBOutlook.com', /*This is the attribute which is being tested, as the email constraint on email should recognise an invalid 					email*/
 
 	office: '2012'
 

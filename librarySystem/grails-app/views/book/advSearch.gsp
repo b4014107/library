@@ -13,28 +13,28 @@
 
 	<formset>
  	
-	<legend>Advanced Search for Students</legend>
+	<legend>Advanced Search for Books</legend>
 
 	<table>
  	
 	<g:form action="advResults">
 
 	<tr>
- 		<td>Name</td>
+ 		<td>Title</td>
  		
-		<td><g:textField name="name" /></td>
+		<td><g:textField name="title" /></td>
  	</tr>
 
 	<tr>
- 		<td>Username</td>
+ 		<td>Subject</td>
  		
-		<td><g:textField name="userName" /></td>
+		<td><g:textField name="subject" /></td>
  	</tr>
 
 	<tr>
- 		<td>Student ID</td>
+ 		<td>Author</td>
  		
-		<td><g:textField name="studentID" /></td>
+		<td><g:textField name="author" /></td>
  	</tr>
 
 	<tr>
